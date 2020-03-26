@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-	dd(\App\User::all());
+	//dd(\App\User::all());
 
     return view('welcome');
 });
