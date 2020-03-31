@@ -85,23 +85,6 @@
             });
         </script>
 
-
-        <style> 
-            .navbar-vertical {
-                left: -250px;
-                transition: 0.5s all ease;
-            }
-            body.menu-open .navbar-vertical {
-                left: 0;
-            }
-            .main-content {
-                margin-left: 0;
-                transition: 0.5s all ease;
-            }
-            body.menu-open .main-content {
-                margin-left: 250px;
-            }
-        </style>
         <!-- Argon JS -->
         <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
     </body>
