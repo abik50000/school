@@ -120,7 +120,6 @@ th.type-1 {
                 </div>
             </div>
         </div>
-        @include('layouts.footers.auth')
     </div>
 </div>
 @endsection

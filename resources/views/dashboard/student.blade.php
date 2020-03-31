@@ -46,12 +46,12 @@
 
         <div class="row">
             <div class="col-xl-12 mb-5 mb-xl-0">
-                <div class="card bg-gradient-default shadow">
+                <div class="card shadow">
                     <div class="card-header bg-transparent mb-3">
                         <div class="row align-items-center">
                             <div class="col col-xl-4">
                                 <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
-                                <h2 class="text-white mb-0">{{ date('d.m.Y') }}</h2>
+                                <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                 <hr>
                                 <h3 style="color: #fff"><i class="ni ni-bell-55 mr-2"></i> Уведомления ({{ $notifications->count() }})</h3>
                                 @foreach($notifications as $note)
@@ -161,7 +161,6 @@
             </div>
         </div>
         
-        @include('layouts.footers.auth')
     </div>
 @endsection
 
