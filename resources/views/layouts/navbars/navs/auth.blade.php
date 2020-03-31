@@ -2,7 +2,7 @@
 <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
     <div class="container-fluid">
         <!-- Brand -->
-        <a class="btn">
+        <a class="btn" id="sidenav-open">
             <i class="fa fa-bars"></i>
         </a>
         @if(Auth::user()->isAdmin()) 

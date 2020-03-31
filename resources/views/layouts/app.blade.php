@@ -79,6 +79,12 @@
             let footerHeight = $('footer').innerHeight();
             $('body').css('padding-bottom', footerHeight + ' px');
         </script>
+        <script>
+            $('#sidenav-open').click(function() {
+                $('#sidenav-main').toggleClass('open');
+                $('body').toggleClass('menu-open');
+            });
+        </script>
         <!-- Argon JS -->
         <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
     </body>
