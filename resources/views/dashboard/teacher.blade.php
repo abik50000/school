@@ -2,7 +2,7 @@
 @section('content')
     @include('layouts.headers.cards')
     
-    <div class="container-fluid mt--7">
+    <div class="container mt--7">
         <div class="row">
             <div class="col-xl-12 mb-5 mb-xl-0">
                 <div class="card bg-gradient-default shadow">

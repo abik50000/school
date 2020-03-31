@@ -15433,17 +15433,16 @@ button.section-darker:focus
     background-color: black !important;
 }
 
-.bg-gradient-primary
-{
-    background: linear-gradient(87deg, #14cc7f 0, #5ee46e 100%) !important;
+.bg-gradient-primary {
+    background: linear-gradient(87deg, #00c4ff 0, #00c4ff 100%) !important;
 }
-
 .bg-gradient-secondary
 {
     background: linear-gradient(87deg, #14cc7a 0, #5ee46a 100%) !important;
 }
 #navbar-main {
                 background: #ffffff;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
             }
 .bg-gradient-success
 {

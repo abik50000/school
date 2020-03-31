@@ -2,7 +2,9 @@
 <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
     <div class="container-fluid">
         <!-- Brand -->
-
+        <a class="btn">
+            <i class="fa fa-bars"></i>
+        </a>
         @if(Auth::user()->isAdmin()) 
             <a class="h4 mb-0  text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель администратора') }}</a>
         @endif

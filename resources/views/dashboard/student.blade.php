@@ -42,7 +42,7 @@
 .mark-btn[data-id="4"] {background: #ff3131;}
 .mark-btn[data-id="5"] {background: #111;}
 </style>
-    <div class="container-fluid mt--7">
+    <div class="container mt--7">
 
         <div class="row">
             <div class="col-xl-12 mb-5 mb-xl-0">
