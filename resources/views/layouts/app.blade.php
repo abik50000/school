@@ -26,9 +26,7 @@
         
 
         <style>
-            #navbar-main {
-                background: #5e72e4;
-            }
+            
             select {
                 padding: 10px;
                 border: 0;
@@ -71,6 +69,10 @@
         @yield('scripts')
         @yield('vue')
         
+        <script>
+            let footerHeight = $('footer').innerHeight();
+            $('body').css('padding-bottom', footerHeight + ' px');
+        </script>
         <!-- Argon JS -->
         <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
     </body>

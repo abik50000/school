@@ -4,19 +4,19 @@
         <!-- Brand -->
 
         @if(Auth::user()->isAdmin()) 
-            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель администратора') }}</a>
+            <a class="h4 mb-0  text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель администратора') }}</a>
         @endif
 
         @if(Auth::user()->isStudent()) 
-            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель ученика') }}</a>
+            <a class="h4 mb-0  text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель ученика') }}</a>
         @endif
 
         @if(Auth::user()->isTeacher()) 
-            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель преподавателя') }}</a>
+            <a class="h4 mb-0  text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель преподавателя') }}</a>
         @endif
 
         @if(Auth::user()->isParent()) 
-            <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель родителя') }}</a>
+            <a class="h4 mb-0  text-uppercase d-none d-lg-inline-block" href="{{ route('home') }}">{{ __('Панель родителя') }}</a>
         @endif
         
         <!-- Form -->
