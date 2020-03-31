@@ -51,7 +51,11 @@
             @include('layouts.navbars.navbar')
             @yield('content')
         </div>
+        
 
+        @include('layouts.footers.auth')
+
+        
         @guest()
             @include('layouts.footers.guest')
         @endguest
