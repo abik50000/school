@@ -1920,7 +1920,7 @@ pre code
 .table th,
 .table td
 {
-    padding: 1rem;
+    padding: 4px;
 
     vertical-align: top;
 
@@ -7973,6 +7973,7 @@ button.bg-primary:focus
 .bg-secondary
 {
     background-color: #f7fafc !important;
+    background-color: #fff !important;
 }
 
 a.bg-secondary:hover,
