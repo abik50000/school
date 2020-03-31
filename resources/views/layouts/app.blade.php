@@ -81,10 +81,25 @@
         </script>
         <script>
             $('#sidenav-open').click(function() {
-                $('#sidenav-main').toggleClass('open');
                 $('body').toggleClass('menu-open');
             });
         </script>
+
+
+        <style> 
+            .navbar-vertical {
+                left: -250px;
+            }
+            body.menu-open .navbar-vertical {
+                left: 0;
+            }
+            .main-content {
+                margin-left: 0;
+            }
+            body.menu-open .main-content {
+                margin-left: 250px;
+            }
+        </style>
         <!-- Argon JS -->
         <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>
     </body>
