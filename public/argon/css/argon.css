@@ -53,6 +53,20 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
+.navbar-vertical {
+                left: -250px;
+                transition: 0.5s all ease;
+            }
+            body.menu-open .navbar-vertical {
+                left: 0;
+            }
+            .main-content {
+                margin-left: 0;
+                transition: 0.5s all ease;
+            }
+            body.menu-open .main-content {
+                margin-left: 250px;
+            }
 *,
 *::before,
 *::after
@@ -21929,17 +21943,3 @@ footer {
     bottom: 0;
 }
 
-.navbar-vertical {
-                left: -250px;
-                transition: 0.5s all ease;
-            }
-            body.menu-open .navbar-vertical {
-                left: 0;
-            }
-            .main-content {
-                margin-left: 0;
-                transition: 0.5s all ease;
-            }
-            body.menu-open .main-content {
-                margin-left: 250px;
-            }
