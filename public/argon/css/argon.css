@@ -19569,8 +19569,6 @@ textarea[resize='horizontal']
 {
     .navbar-vertical.navbar-expand-md.fixed-left
     {
-        left: 0;
-
         border-width: 0 1px 0 0;
     }
     .navbar-vertical.navbar-expand-md.fixed-right
