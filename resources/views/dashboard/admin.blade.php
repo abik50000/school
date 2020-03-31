@@ -34,9 +34,9 @@
                 </div>
             </div>
         </div>
-        <br>
-        @include('layouts.footers.auth')
+        
     </div>
+        @include('layouts.footers.auth')
 @endsection
 
 @push('js')

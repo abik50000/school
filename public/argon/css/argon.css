@@ -3293,15 +3293,15 @@ fieldset:disabled a.btn
 .btn-default
 {
     color: #fff;
-    border-color: #172b4d;
-    background-color: #172b4d;
+    border-color: #00c4ff;
+    background-color: #00c4ff;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .btn-default:hover
 {
     color: #fff;
-    border-color: #172b4d; 
-    background-color: #172b4d;
+    border-color: #0cb2e4; 
+    background-color: #0cb2e4;
 }
 .btn-default:focus,
 .btn-default.focus
