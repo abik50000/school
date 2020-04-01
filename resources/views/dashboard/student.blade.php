@@ -49,7 +49,7 @@
                                 <div class="white-block">
                                     <div class="block-profile">
                                         <div class="img-profile">
-                                            <img class="img-100" src="https://daryn.online/custom/image/default.jpg">
+                                            <img class="img-100" src="https://lh3.googleusercontent.com/proxy/wbrf5N5rwnrkrkkyjAGl38ZpQwM0PNEfcbK1xsXCKN14EXX-CoscVOLIIv9nCBEH95ufIZsUrXNVQXkalWGdU04Cwp9gPHi1rHbCiSKzMiDipF86caRtOsBcqc9ewNlj13c">
                                         </div>
                                         <div class="inf-profile">
                                             <p>Дамира Ахметова</p>
@@ -84,6 +84,12 @@
                                             <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-4-tab" data-toggle="tab" href="#tabs-icons-text-4" role="tab" aria-controls="tabs-icons-text-4" aria-selected="false">
                                                 <i class="ni ni-calendar-grid-58"></i>
                                                 <span>Достижения <b></b></span>
+                                            </a>
+                                        </li>
+                                        <li class="prof-menu">
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-5-tab" data-toggle="tab" href="#tabs-icons-text-5" role="tab" aria-controls="tabs-icons-text-4" aria-selected="false">
+                                                <i class="ni ni-calendar-grid-58"></i>
+                                                <span>Домашние задания<b></b></span>
                                             </a>
                                         </li>
                                     </ul>
@@ -175,6 +181,11 @@
                                                 <div class="tab-pane fade" id="tabs-icons-text-4" role="tabpanel" aria-labelledby="tabs-icons-text-4-tab">
                                                     <div class="card-body">
                                                         <h3>Достижения</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tabs-icons-text-4" role="tabpanel" aria-labelledby="tabs-icons-text-4-tab">
+                                                    <div class="card-body">
+                                                        <h3>Домашние задания</h3>
                                                     </div>
                                                 </div>
                                             </div>
