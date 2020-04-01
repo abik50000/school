@@ -119,7 +119,7 @@ footer {
     font-weight: 400;
     font-size: 0.8em;
 }
-.prof-menu.is-active {
+.prof-menu a.active {
     background-color: #edf4fa;
     -webkit-box-shadow: inset 3px 0 0 #1da5de;
     box-shadow: inset 3px 0 0 #1da5de;
