@@ -135,6 +135,9 @@ footer {
     flex-direction: row;
         padding: 16px;
 }
+.subject {
+    margin-bottom: 15px;
+}
 .subject p.subject-title {
     font-weight: 700;
 }
