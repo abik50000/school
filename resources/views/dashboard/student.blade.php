@@ -44,12 +44,9 @@
 </style>
     <div class="container mt--7">
 
-        <div class="row">
-            <div class="col-xl-12 mb-5 mb-xl-0">
-                <div class="card shadow">
-                    <div class="card-header bg-transparent mb-3">
-                        <div class="row align-items-center">
-                            <div class="col col-xl-4">
+        <div class="row align-items-center">
+
+                            <div class="col col-xl-4 mb-5 mb-xl-0">
                                 <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
                                 <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                 <hr>
@@ -58,7 +55,7 @@
                                     <p class="notification"><span></span> {{ $note->text }}</p>
                                 @endforeach
                             </div> 
-                            <div class="col col-xl-8">
+                            <div class="col col-xl-8 mb-5 mb-xl-0">
                                 <div class="nav-wrapper">
                                     <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
                                         <li class="nav-item">
@@ -156,10 +153,7 @@
                                 
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                   
         
     </div>
 @endsection
