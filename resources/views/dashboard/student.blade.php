@@ -100,11 +100,11 @@
                             </div> 
                             <div class="col col-xl-8 mb-5 mb-xl-0">
                                 <div class="">
-                                    <div class="card shadow">
-                                        <div class="_card-body">
+                                    <div class="">
+                                        <div class="">
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
-                                                    <div class="row">
+                                                    <div class="row card">
                                                         <a class="col-lg-6" href="#">
                                                             <div class="row">
                                                                 <div class="col-sm-9">
