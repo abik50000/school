@@ -60,7 +60,7 @@
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                     <hr>
 
-                                    <div class="prof-menu">
+                                    <div class="prof-menu" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true">
                                         <i class="ni ni-bell-55 mr-2"></i>
                                         <p>Уведомления <span>{{ $notifications->count() }}</span></p>
                                     </div>

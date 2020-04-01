@@ -109,8 +109,14 @@ footer {
         display: inline-block;
     vertical-align: middle;
     font-weight: 600;
+    margin-bottom: 3px;
 }
 .prof-menu p span {
     font-weight: 400;
     font-size: 0.8em;
+}
+.prof-menu.is-active {
+    background-color: #edf4fa;
+    -webkit-box-shadow: inset 3px 0 0 #1da5de;
+    box-shadow: inset 3px 0 0 #1da5de;
 }
