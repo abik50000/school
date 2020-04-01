@@ -95,6 +95,10 @@ footer {
     line-height: 120%;
 }
 /***** */
+.prof-tabs {
+    padding-left: 0;
+    list-style: none;
+}
 .prof-menu {
     padding: 9px 10px 13px 21px;
 }
