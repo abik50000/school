@@ -60,21 +60,23 @@
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                     <hr>
 
-                                    <div class="prof-menu" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true">
-                                        <i class="ni ni-bell-55 mr-2"></i>
-                                        <p>Уведомления <span>{{ $notifications->count() }}</span></p>
-                                    </div>
-                                    <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-icons-text44" role="tablist">
-                                            <li class="nav-item">
-                                                
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55 mr-2"></i> Оценки</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link mb-sm-3 mb-md-0 active show" id="tabs-icons-text-3-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="tabs-icons-text-3" aria-selected="true"><i class="ni ni-calendar-grid-58 mr-2"></i>Расписание</a>
-                                            </li>
-                                        </ul>
+                    
+                                        <!-- <p>Уведомления <span>{{ $notifications->count() }}</span></p> -->
+                                  
+                                    <ul class="flex-column flex-md-row" id="tabs-icons-text" role="tablist">
+                                        <li class="prof-menu">
+                                            <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-icons-text-1-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true">
+                                                <i class="ni ni-cloud-upload-96 mr-2"></i> Сегодня 
+                                                <span class="badge badge-success-2">{{ $timetables->count() }}</span>
+                                            </a>
+                                        </li>
+                                        <li class="prof-menu">
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55 mr-2"></i> Оценки</a>
+                                        </li>
+                                        <li class="prof-menu">
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-3-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="tabs-icons-text-3" aria-selected="false"><i class="ni ni-calendar-grid-58 mr-2"></i>Расписание</a>
+                                        </li>
+                                    </ul>
                                     @foreach($notifications as $note)
                                         <p class="notification"><span></span> {{ $note->text }}</p>
                                     @endforeach
@@ -82,19 +84,6 @@
                             </div> 
                             <div class="col col-xl-8 mb-5 mb-xl-0">
                                 <div class="">
-                                    <div class="nav-wrapper">
-                                        <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
-                                            <li class="nav-item">
-                                                <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-icons-text-1-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true"><i class="ni ni-cloud-upload-96 mr-2"></i> Сегодня <span class="badge badge-success-2">{{ $timetables->count() }}</span></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55 mr-2"></i> Оценки</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-3-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="tabs-icons-text-3" aria-selected="false"><i class="ni ni-calendar-grid-58 mr-2"></i>Расписание</a>
-                                            </li>
-                                        </ul>
-                                    </div>
                                     <div class="card shadow">
                                         <div class="_card-body">
                                             <div class="tab-content" id="myTabContent">
