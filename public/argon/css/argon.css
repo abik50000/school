@@ -1,12 +1,17 @@
 @font-face {
   font-family: "Open Sans";
   font-weight: 700;
-  src: url("/fonts/Inter-Bold.otf") format("opentype");
+  src: url("/fonts/Museo-Bold.woff") format("woff");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 400;
-  src: url("/fonts/Inter-Regular.otf") format("opentype");
+  src: url("/fonts/Museo-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  src: url("/fonts/Museo-Medium.woff") format("woff");
 }
 
 .navbar-vertical {

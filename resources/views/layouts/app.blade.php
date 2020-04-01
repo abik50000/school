@@ -10,8 +10,6 @@
         <title>{{ config('app.name', 'Дневник') }}</title>
         <!-- Favicon -->
         <link href="{{ asset('argon') }}/img/brand/favicon.png" rel="icon" type="image/png">
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <!-- Icons -->
         <link href="{{ asset('argon') }}/vendor/nucleo/css/nucleo.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
