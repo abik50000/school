@@ -1,7 +1,6 @@
 @extends('layouts.app')
-
 @section('content')
-    @include('layouts.headers.cards')
+@include('layouts.headers.cards')
   
 <style>
 .mark-btn {
@@ -60,14 +59,18 @@
                                     <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                     <hr>
-                                    <h3><i class="ni ni-bell-55 mr-2"></i> Уведомления ({{ $notifications->count() }})</h3>
+
+                                    <div class="prof-menu">
+                                        <i class="ni ni-bell-55 mr-2"></i>
+                                        <p>Уведомления <span>{{ $notifications->count() }}</span></p>
+                                    </div>
                                     @foreach($notifications as $note)
                                         <p class="notification"><span></span> {{ $note->text }}</p>
                                     @endforeach
                                 </div>
                             </div> 
                             <div class="col col-xl-8 mb-5 mb-xl-0">
-                                <div class="white-block">
+                                <div class="">
                                     <div class="nav-wrapper">
                                         <ul class="nav nav-pills nav-fill flex-column flex-md-row" id="tabs-icons-text" role="tablist">
                                             <li class="nav-item">

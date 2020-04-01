@@ -17,6 +17,7 @@
         <!-- Argon CSS -->
         <link href="/js/select2/select2.min.css" rel="stylesheet" />
         <link type="text/css" href="{{ asset('argon') }}/css/argon.css?v=1.0.0" rel="stylesheet">
+        <link type="text/css" href="/css/style.css" rel="stylesheet">
 
         <link type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         
