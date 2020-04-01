@@ -48,6 +48,15 @@
 
                             <div class="col col-xl-4 mb-5 mb-xl-0">
                                 <div class="white-block">
+                                    <div class="block-profile">
+                                        <div class="img-profile">
+                                            <img class="img-100" src="https://daryn.online/custom/image/default.jpg">
+                                        </div>
+                                        <div class="inf-profile">
+                                        <p class="fs-16 title-bold">Айдана Файзулла</p>
+                                        <p>&nbsp;</p>
+                                        </div>
+                                    </div>
                                     <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                     <hr>

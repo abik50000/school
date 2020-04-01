@@ -21975,3 +21975,38 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+.block-profile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 16px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.img-profile {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    border: 2px solid #007dff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img-100 {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.inf-profile {
+    padding-left: 16px;
+}
+.inf-profile p {
+    margin-bottom: 0;
+    font-size: 12px;color: #000;
+    line-height: 120%;
+    }
