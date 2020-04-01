@@ -52,13 +52,11 @@
                                             <img class="img-100" src="https://daryn.online/custom/image/default.jpg">
                                         </div>
                                         <div class="inf-profile">
-                                        <p class="fs-16 title-bold">{{ auth()->user()->name }}</p>
-                                        <p>&nbsp;</p>
+                                            <p>Дамира Ахметова</p>
+                                            <p>Начальный уровень</p>
                                         </div>
                                     </div>
-                                    <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
-                                    <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
-                              
+
 
                     
                                         <!-- <p>Уведомления <span>{{ $notifications->count() }}</span></p> -->
@@ -67,14 +65,26 @@
                                         <li class="prof-menu">
                                             <a class="nav-link mb-sm-3 mb-md-0 active" id="tabs-icons-text-1-tab" data-toggle="tab" href="#tabs-icons-text-1" role="tab" aria-controls="tabs-icons-text-1" aria-selected="true">
                                                 <i class="ni ni-cloud-upload-96"></i>  
-                                                <span>Сегодня <b>0</b></span>
+                                                <span>Курсы <b>0</b></span>
                                             </a>
                                         </li>
                                         <li class="prof-menu">
-                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false"><i class="ni ni-bell-55"></i> Оценки</a>
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-2-tab" data-toggle="tab" href="#tabs-icons-text-2" role="tab" aria-controls="tabs-icons-text-2" aria-selected="false">
+                                                <i class="ni ni-bell-55"></i> 
+                                                <span>Календарь <b></b></span>
+                                            </a>
                                         </li>
                                         <li class="prof-menu">
-                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-3-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="tabs-icons-text-3" aria-selected="false"><i class="ni ni-calendar-grid-58"></i>Расписание</a>
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-3-tab" data-toggle="tab" href="#tabs-icons-text-3" role="tab" aria-controls="tabs-icons-text-3" aria-selected="false">
+                                                <i class="ni ni-calendar-grid-58"></i>
+                                                <span>Уведомления <b></b></span>
+                                            </a>
+                                        </li>
+                                        <li class="prof-menu">
+                                            <a class="nav-link mb-sm-3 mb-md-0" id="tabs-icons-text-4-tab" data-toggle="tab" href="#tabs-icons-text-4" role="tab" aria-controls="tabs-icons-text-4" aria-selected="false">
+                                                <i class="ni ni-calendar-grid-58"></i>
+                                                <span>Достижения <b></b></span>
+                                            </a>
                                         </li>
                                     </ul>
                                     @foreach($notifications as $note)
@@ -160,6 +170,11 @@
                                                         <button class="btn btn-secondary" type="button">Четверг<br> 30 января</button>
                                                         <button class="btn btn-secondary" type="button">Пятница<br> 31 января</button>
                                                         <button class="btn btn-secondary" type="button">Суббота<br> 1 февраля</button>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="tabs-icons-text-4" role="tabpanel" aria-labelledby="tabs-icons-text-4-tab">
+                                                    <div class="card-body">
+                                                        <h3>Достижения</h3>
                                                     </div>
                                                 </div>
                                             </div>
