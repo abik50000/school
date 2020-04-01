@@ -183,7 +183,7 @@
                                                         <h3>Достижения</h3>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane fade" id="tabs-icons-text-4" role="tabpanel" aria-labelledby="tabs-icons-text-4-tab">
+                                                <div class="tab-pane fade" id="tabs-icons-text-5" role="tabpanel" aria-labelledby="tabs-icons-text-5-tab">
                                                     <div class="card-body">
                                                         <h3>Домашние задания</h3>
                                                     </div>

@@ -1,17 +1,17 @@
 @font-face {
   font-family: "Open Sans";
   font-weight: 700;
-  src: url("/fonts/Museo-Bold.woff") format("woff");
+  src: url("/fonts/Museo-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 400;
-  src: url("/fonts/Museo-Regular.woff") format("woff");
+  src: url("/fonts/Museo-Light.woff") format("woff");
 }
 @font-face {
   font-family: "Open Sans";
   font-weight: 600;
-  src: url("/fonts/Museo-Medium.woff") format("woff");
+  src: url("/fonts/Museo-Regular.woff") format("woff");
 }
 
 .navbar-vertical {
