@@ -53,7 +53,7 @@
                                             <img class="img-100" src="https://daryn.online/custom/image/default.jpg">
                                         </div>
                                         <div class="inf-profile">
-                                        <p class="fs-16 title-bold">Айдана Файзулла</p>
+                                        <p class="fs-16 title-bold">{{ auth()->user()->name }}</p>
                                         <p>&nbsp;</p>
                                         </div>
                                     </div>
