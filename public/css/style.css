@@ -132,4 +132,5 @@ footer {
 
 .row.card {
     margin: 0;
+    flex-direction: row;
 }

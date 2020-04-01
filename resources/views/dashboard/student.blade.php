@@ -104,10 +104,10 @@
                                         <div class="">
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="tabs-icons-text-1" role="tabpanel" aria-labelledby="tabs-icons-text-1-tab">
-                                                    <div class="row card">
+                                                    <div class="row">
                                                         <a class="col-lg-6" href="#">
-                                                            <div class="row">
-                                                                <div class="col-sm-9">
+                                                            <div class="row card">
+                                                                <div class="col-sm-3">
                                                                     <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="62.5 0.525 70 70" enable-background="new 62.5 0.525 70 70" xml:space="preserve">
                                                                         <g id="Layer_3">
                                                                         </g>
@@ -172,7 +172,7 @@
                                                                         </g>
                                                                     </svg>
                                                                 </div>
-                                                                <div class="col-sm-3">
+                                                                <div class="col-sm-9">
                                                                     <p class="subject-title">HTML + CSS</p>
                                                                     <p>Основы веб-разработки</p>
                                                                 </div>
