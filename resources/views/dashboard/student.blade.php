@@ -44,14 +44,14 @@
 </style>
     <div class="container mt--7">
 
-        <div class="row align-items-center">
+        <div class="row">
 
                             <div class="col col-xl-4 mb-5 mb-xl-0">
                                 <div class="white-block">
                                     <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
                                     <hr>
-                                    <h3 style="color: #fff"><i class="ni ni-bell-55 mr-2"></i> Уведомления ({{ $notifications->count() }})</h3>
+                                    <h3><i class="ni ni-bell-55 mr-2"></i> Уведомления ({{ $notifications->count() }})</h3>
                                     @foreach($notifications as $note)
                                         <p class="notification"><span></span> {{ $note->text }}</p>
                                     @endforeach
