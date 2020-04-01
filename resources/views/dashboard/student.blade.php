@@ -58,7 +58,7 @@
                                     </div>
                                     <h6 class="text-uppercase text-light ls-1 mb-1">Сегодня</h6>
                                     <h2 class="mb-0">{{ date('d.m.Y') }}</h2>
-                                    <hr>
+                              
 
                     
                                         <!-- <p>Уведомления <span>{{ $notifications->count() }}</span></p> -->

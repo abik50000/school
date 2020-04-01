@@ -99,7 +99,7 @@ footer {
     padding-left: 0;
     list-style: none;
 }
-.prof-menu {
+.prof-menu a{
     padding: 9px 10px 13px 21px;
 }
 .prof-menu i {
