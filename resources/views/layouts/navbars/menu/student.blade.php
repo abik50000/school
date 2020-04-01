@@ -6,16 +6,16 @@
 
 <li class="nav-item">
     <a class="nav-link" href="#">
-        <i class="ni ni-planet text-blue"></i> {{ __('Расписание') }}
+        <i class="ni ni-planet text-primary"></i> {{ __('Расписание') }}
     </a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="{{ route('student_diary') }}">
-        <i class="ni ni-pin-3 text-orange"></i> {{ __('Дневник') }}
+        <i class="ni ni-pin-3 text-primary"></i> {{ __('Дневник') }}
     </a>
 </li>
 <li class="nav-item">
     <a class="nav-link" href="{{ route('student_notifications') }}">
-        <i class="ni ni-bell-55"></i> {{ __('Уведомления') }}
+        <i class="ni ni-bell-55 text-primary"></i> {{ __('Уведомления') }}
     </a>
 </li>
