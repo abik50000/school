@@ -109,13 +109,13 @@ footer {
         display: inline-block;
     vertical-align: middle;
 }
-.prof-menu p {
+.prof-menu span {
         display: inline-block;
     vertical-align: middle;
     font-weight: 600;
     margin-bottom: 3px;
 }
-.prof-menu p span {
+.prof-menu span b{
     font-weight: 400;
     font-size: 0.8em;
 }
