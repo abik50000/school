@@ -1,56 +1,12 @@
-/*!
-
-=========================================================
-* Argon Dashboard - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-dashboard
-* Copyright 2018 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-:root
-{
-    --blue: #1dcf7d;
-    --indigo: #5603ad;
-    --purple: #8965e0;
-    --pink: #f3a4b5;
-    --red: #f5365c;
-    --orange: #fb6340;
-    --yellow: #ffd600;
-    --green: #2dce89;
-    --teal: #11cdef;
-    --cyan: #2bffc6;
-    --white: #fff;
-    --gray: #8898aa;
-    --gray-dark: #32325d;
-    --light: #ced4da;
-    --lighter: #e9ecef;
-    --primary: #1dcf7d;
-    --secondary: #f7fafc;
-    --success: #2dce89;
-    --info: #11cdef;
-    --warning: #fb6340;
-    --danger: #f5365c;
-    --light: #adb5bd;
-    --dark: #212529;
-    --default: #172b4d;
-    --white: #fff;
-    --neutral: #fff;
-    --darker: black;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: Open Sans, sans-serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: url("/fonts/Inter-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 400;
+  src: url("/fonts/Inter-Regular.otf") format("opentype");
 }
 
 .navbar-vertical {
@@ -5258,7 +5214,7 @@ input[type='button'].btn-block
 
     display: flex;
 
-    padding: 15px; 
+    padding: 10px; 
 
     flex-wrap: wrap;
     align-items: center;
@@ -17617,7 +17573,7 @@ a.btn-icon-only
 .main-content
 {
     position: relative;
-    padding-top: 76px;
+    padding-top: 66px;
 }
 .main-content .navbar-top
 {
