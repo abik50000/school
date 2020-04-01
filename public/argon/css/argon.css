@@ -110,7 +110,7 @@ body
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-
+    padding-top: 76px;
     margin: 0;
 
     text-align: left;
@@ -5259,7 +5259,7 @@ input[type='button'].btn-block
 
     display: flex;
 
-    padding: 1rem 1rem; 
+    padding: 15px; 
 
     flex-wrap: wrap;
     align-items: center;
@@ -21949,7 +21949,7 @@ footer {
     width: 100%;
     position: relative;
     border-radius: 6px;
-    border: solid 1px #e0e0e0;
+    border: solid 1px #f5f5f5;
     padding: 25px 15px 10px;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
