@@ -49,7 +49,7 @@
                                 <div class="white-block">
                                     <div class="block-profile">
                                         <div class="img-profile">
-                                            <img class="img-100" src="https://lh3.googleusercontent.com/proxy/wbrf5N5rwnrkrkkyjAGl38ZpQwM0PNEfcbK1xsXCKN14EXX-CoscVOLIIv9nCBEH95ufIZsUrXNVQXkalWGdU04Cwp9gPHi1rHbCiSKzMiDipF86caRtOsBcqc9ewNlj13c">
+                                            <img class="img-100" src="/img/user.png">
                                         </div>
                                         <div class="inf-profile">
                                             <p>Дамира Ахметова</p>
